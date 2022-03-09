@@ -41,3 +41,18 @@ console.log(Object.values(objectValues));
 só que ao invés de pegar as chaves, ele pega os "valores" de um objeto. */
 
 //  Sintaxe:  -  Object.values(nome do objeto);
+
+
+
+const objectEntries = {
+    name: 'Fernanda',
+    lastName: 'Oliveira',
+    favoriteSerie: 'La casa de Papel',
+    cpf: '123.456.789-10',
+}
+
+console.log(Object.entries(umObjetoQualquer3));
+
+/* O comando "Object.entries" ele retorna uma array dos próprios pares [chave, valor] */
+
+//  Sintaxe  -  Object.entries(nome do objeto);
