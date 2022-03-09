@@ -43,3 +43,12 @@ const quantosDiasTemOMes = (inputNumber) => {
             throw new Error('Mês Invalido!');
     };
 };
+
+window.onload = () => {
+    const btnSubmit = document.querySelector('#submit');
+    btnSubmit.addEventListener('click', diaMes);
+};
+
+function diaMes(){
+    
+}
