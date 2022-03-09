@@ -51,8 +51,28 @@ const objectEntries = {
     cpf: '123.456.789-10',
 }
 
-console.log(Object.entries(umObjetoQualquer3));
+console.log(Object.entries(objectEntries));
 
 /* O comando "Object.entries" ele retorna uma array dos próprios pares [chave, valor] */
 
 //  Sintaxe  -  Object.entries(nome do objeto);
+
+
+
+const user = {
+    firstName: 'Gustavo',
+    lastName: 'Soares Thomann',
+}
+
+const newDate = {
+    password: '1234',
+    cpf: '123.456.789-10',
+}
+
+const unificar = Object.assign(user, newDate);
+console.log(unificar);
+
+/* O comando "Object.assign" ele copia as propriedades de um objeto
+para o outro. */
+
+//  Sintaxe  -  Object.assign(objeto-destino, objeto-origem);
