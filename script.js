@@ -3,7 +3,7 @@
 const myObject = {
     name: 'Gustavo',
     age: 19,
-}
+};
 
 myObject['lastName'] = 'Soares Thomann';
 myObject.favoriteColor = 'Blue';
@@ -17,7 +17,7 @@ const objectKeys = {
     lastName: 'Soares',
     favoriteSerie: 'Supernatural',
     cpf: '123.456.789-10',
-}
+};
 
 console.log(Object.keys(objectKeys));
 
@@ -33,7 +33,7 @@ const objectValues = {
     lasName: 'Vieira',
     favoriteColor: 'Green',
     cpf: '098.765.432-10',
-}
+};
 
 console.log(Object.values(objectValues));
 
@@ -49,7 +49,7 @@ const objectEntries = {
     lastName: 'Oliveira',
     favoriteSerie: 'La casa de Papel',
     cpf: '123.456.789-10',
-}
+};
 
 console.log(Object.entries(objectEntries));
 
@@ -62,12 +62,12 @@ console.log(Object.entries(objectEntries));
 const user = {
     firstName: 'Gustavo',
     lastName: 'Soares Thomann',
-}
+};
 
 const newDate = {
     password: '1234',
     cpf: '123.456.789-10',
-}
+};
 
 const unificar = Object.assign(user, newDate);
 console.log(unificar);
