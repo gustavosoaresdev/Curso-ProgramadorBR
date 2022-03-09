@@ -50,5 +50,18 @@ window.onload = () => {
 };
 
 function diaMes(){
-    
-}
+    try{
+        const inputNumber = document.querySelector('#input-number').value;
+        const result = document.querySelector('#result');
+        result.innerHTML = `O mês ${inputNumber} tem ${quantosDiasTemOMes(inputNumber)} dias`;
+    }
+
+    catch(error){
+        alert(`Error: ${error.message}`);
+        document.querySelector('#result').innerHTML = '';
+    }
+
+    finally{
+        document.querySelector('#input-number').value = '';
+    }
+};
