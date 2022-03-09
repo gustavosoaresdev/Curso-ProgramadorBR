@@ -51,7 +51,7 @@ const objectEntries = {
     cpf: '123.456.789-10',
 }
 
-console.log(Object.entries(umObjetoQualquer3));
+console.log(Object.entries(objectEntries));
 
 /* O comando "Object.entries" ele retorna uma array dos próprios pares [chave, valor] */
 
