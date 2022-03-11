@@ -9,4 +9,10 @@ btn.addEventListener('click', () => {
         'Julia',
         'Bruno',
     ];
+
+    let numberOfPeoples = peoples.length;
+    let drawnNumber = Math.floor(Math.random() * numberOfPeoples);
+
+    let drawnName = document.getElementById('nome-sorteado');
+    drawnName.innerHTML = peoples[drawnNumber];
 });
