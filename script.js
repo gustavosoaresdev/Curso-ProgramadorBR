@@ -6,4 +6,14 @@ function createButton (text, callback) {
     callback(button);
 
     body.appendChild(button);
+
+    return button;
 };
+
+createButton('Login', (button) => {
+
+});
+
+createButton('Sign up', (button) => {
+    
+});
