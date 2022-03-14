@@ -1,4 +1,4 @@
-const user = (name, age) => ({name, age});  //  Função  Function
+const user = (name, age) => ({name: name, age: age});  //  Função  Function
 
 const newUser = [
     user('Gustavo', 19),
