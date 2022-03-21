@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Página para sorteio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        font-family: sans-serif;
+        box-sizing: border-box;
+    }
+
+    body{background-color: #f5f5f5;}
+
+    .main-container{
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+        text-align: center;
+    }
+
+    #btn{
+        padding: 10px;
+        width: 200px;
+        height: 60px;
+        font-size: 20px;
+        font-weight: bold;
+        background-color: rgb(102, 0, 102);
+        color: #fff;
+        text-shadow: 1px 1px 3px #000;
+        outline: none;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+        cursor: pointer;
+    }
+
+    #btn:hover{transition: .3s; background-color: purple;}
+
+</style>
+
+<body>
+    <h1 align="center" style="margin-top: 20px;">
+        Página para sorteio
+    </h1>
+
+    <main class="main-container">
+        <h1 id="nome-sorteado"></h1>
+        <button id="btn">Sortear</button>
+    </main>
+
+    <script src="./script.js"></script>
+</body>
+</html>
